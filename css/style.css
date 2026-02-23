@@ -800,6 +800,7 @@ button {
   border-radius: 50px;
   font-size: var(--font-size-sm);
   font-weight: 600;
+  margin-top: 16px;
   margin-bottom: 24px;
 }
 
