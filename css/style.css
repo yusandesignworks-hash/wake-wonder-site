@@ -1250,8 +1250,29 @@ button {
 }
 
 .message-inner {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  gap: 56px;
+  align-items: flex-start;
+}
+
+.message-photo {
+  flex-shrink: 0;
+  width: 240px;
+}
+
+.message-photo img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 12px;
+  display: block;
+}
+
+.message-body {
+  flex: 1;
 }
 
 .message-text {
@@ -1273,6 +1294,22 @@ button {
   font-weight: 400;
   color: var(--color-text-light);
   display: block;
+}
+
+@media (max-width: 768px) {
+  .message-inner {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .message-photo {
+    width: 180px;
+  }
+
+  .message-photo img {
+    height: 180px;
+  }
 }
 
 /* --- Mission --- */
