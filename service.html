@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サービス | 株式会社Wake Wonder</title>
+  <meta name="description" content="株式会社Wake Wonderのサービス。モバイルアプリ開発、コンサルティング、運用・保守サポートを提供します。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Sora:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="サービス | 株式会社Wake Wonder">
+  <meta property="og:description" content="モバイルアプリ開発、コンサルティング、運用・保守サポートを提供します。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div class="loading" id="loading"><div class="loading-spinner"></div></div>
+  <a href="#main-content" class="skip-link">メインコンテンツへスキップ</a>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo">
+        <img src="images/logo.png" alt="Wake Wonder" width="120" height="32">
+      </a>
+      <nav class="header-nav" aria-label="メインナビゲーション">
+        <ul class="header-nav__list">
+          <li><a href="about.html" class="header-nav__link">企業情報</a></li>
+          <li><a href="service.html" class="header-nav__link active">サービス</a></li>
+          <li><a href="news.html" class="header-nav__link">お知らせ</a></li>
+          <li><a href="blog.html" class="header-nav__link">ブログ</a></li>
+        </ul>
+        <a href="contact.html" class="header-nav__contact">お問い合わせ</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav" role="navigation" aria-label="モバイルナビゲーション">
+    <ul class="mobile-nav__list">
+      <li><a href="index.html" class="mobile-nav__link">ホーム</a></li>
+      <li><a href="about.html" class="mobile-nav__link">企業情報</a></li>
+      <li><a href="service.html" class="mobile-nav__link">サービス</a></li>
+      <li><a href="news.html" class="mobile-nav__link">お知らせ</a></li>
+      <li><a href="blog.html" class="mobile-nav__link">ブログ</a></li>
+    </ul>
+    <a href="contact.html" class="mobile-nav__contact">お問い合わせ</a>
+  </nav>
+
+  <main id="main-content">
+    <!-- Page Header -->
+    <section class="page-header">
+      <span class="page-header__label">Service</span>
+      <h1 class="page-header__title">サービス</h1>
+    </section>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb__list">
+          <li><a href="index.html">ホーム</a></li>
+          <li>サービス</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Service Detail #1 -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">App Development</span>
+          <h2 class="section-title">モバイルアプリケーション開発</h2>
+        </div>
+        <div class="service-detail fade-in">
+          <div class="service-detail__content">
+            <p class="service-detail__text">ユーザー目線に立った、直感的で使い心地の良いモバイルアプリケーションを企画、設計、開発します。企画から設計、メンテナンス、機能拡張、集客施策まで、伴走型のサポートで一気通貫して対応できることが強みの一つです。</p>
+            <ul class="service-list">
+              <li>モバイルアプリの企画・設計</li>
+              <li>既存アプリのリニューアル・改善</li>
+              <li>UI/UXデザイン</li>
+              <li>最新テクノロジー導入支援（AI、IoT、など）</li>
+            </ul>
+          </div>
+          <div class="service-detail__image">
+            <svg viewBox="0 0 24 24" width="80" height="80" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18.01"/></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Detail #2 -->
+    <section class="section section--bg-light">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Consulting</span>
+          <h2 class="section-title">アプリケーションコンサル・ソリューション</h2>
+        </div>
+        <div class="service-detail fade-in">
+          <div class="service-detail__image">
+            <svg viewBox="0 0 24 24" width="80" height="80" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 21H4.6c-.56 0-.84 0-1.05-.11a1 1 0 0 1-.44-.44C3 20.24 3 19.96 3 19.4V3"/><path d="m7 14 4-4 4 4 6-6"/></svg>
+          </div>
+          <div class="service-detail__content">
+            <p class="service-detail__text">既存のアプリケーション現状の調査、各種アプリケーションの品質改善、集客・プロモーションのサポートのほか、BtoBでの業務効率化アプリの企画支援、ユーザー体験の最適化など、課題解決に向けた最適なソリューションを提案しています。</p>
+            <ul class="service-list">
+              <li>アプリケーション戦略コンサルティング</li>
+              <li>品質改善・パフォーマンス最適化</li>
+              <li>集客・プロモーション支援</li>
+              <li>運用・保守支援</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product: OHA! -->
+    <section class="section product">
+      <div class="container">
+        <div class="product-inner fade-in">
+          <div class="product-content">
+            <span class="section-label">Our Product</span>
+            <h2 class="section-title section-title--white">自社プロダクト「OHA!」</h2>
+            <div class="product-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26"/></svg> 累計10万ダウンロード突破</div>
+            <p class="product-description">日々の生活の中に「喜び」や「驚き」を届けるライフスタイルアプリ。UIデザインと使い心地にこだわり、2023年のリリース以来、ユーザーからの「使いやすさ」「毎日開きたくなる楽しさ」という声に支えられ成長を続けています。</p>
+          </div>
+          <div class="product-visual">
+            <img src="images/oha-app-screens.png" alt="OHA! アプリスクリーン" width="380" height="400" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strength -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Strength</span>
+          <h2 class="section-title">Wake Wonderが選ばれる理由</h2>
+        </div>
+        <div class="strength-list fade-in">
+          <div class="strength-item">
+            <div class="strength-item__number">1</div>
+            <div>
+              <h3 class="strength-item__title">伴走型の手厚い一貫サポート</h3>
+              <p class="strength-item__text">アイデア段階からリリース後の運用まで、全て自社で一貫して行います。ビジネスパートナーとして伴走し、最適な解決策を共に追求します。</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <div class="strength-item__number">2</div>
+            <div>
+              <h3 class="strength-item__title">戦略思考と表現力の融合</h3>
+              <p class="strength-item__text">最新の開発技術と卓越したデザイン力を組み合わせ、ユーザー第一の視点で使いやすいUI/UXの設計を追求しています。</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <div class="strength-item__number">3</div>
+            <div>
+              <h3 class="strength-item__title">万全なセキュリティ対策</h3>
+              <p class="strength-item__text">セキュリティとアクセシビリティに最大限配慮。情報のプライバシーを守り、誰にとっても使いやすいアプリを提供します。</p>
+            </div>
+          </div>
+          <div class="strength-item">
+            <div class="strength-item__number">4</div>
+            <div>
+              <h3 class="strength-item__title">多面的な理解とカスタマイズ対応</h3>
+              <p class="strength-item__text">業種や業態特有のニーズをきめ細かく理解し、最新の市場動向を加味したオーダーメイドのソリューションを提案します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container fade-in">
+        <h2 class="cta__title">アプリ開発のご相談はお気軽に</h2>
+        <p class="cta__text">企画段階のご相談から、既存アプリの改善まで。<br>まずはお気軽にお問い合わせください。</p>
+        <a href="contact.html" class="btn btn-arrow">お問い合わせはこちら</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" aria-label="フッターナビゲーション">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-brand__logo"><img src="images/logo.png" alt="Wake Wonder" width="120" height="32"></div>
+        <p class="footer-brand__address">〒101-1234<br>東京都千代田区神田駿河台2-3-11<br>New Wonder Bldg 7F<br><br>TEL: 03-1234-5678<br>Email: info@makewonder-dev.com</p>
+      </div>
+      <div class="footer-nav">
+        <h3 class="footer-nav__title">企業情報</h3>
+        <ul class="footer-nav__list">
+          <li><a href="about.html" class="footer-nav__link">会社概要</a></li>
+          <li><a href="about.html#mission" class="footer-nav__link">ミッション</a></li>
+          <li><a href="about.html#message" class="footer-nav__link">代表メッセージ</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h3 class="footer-nav__title">サービス</h3>
+        <ul class="footer-nav__list">
+          <li><a href="service.html" class="footer-nav__link">アプリ開発</a></li>
+          <li><a href="service.html" class="footer-nav__link">コンサルティング</a></li>
+          <li><a href="service.html" class="footer-nav__link">運用・保守</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h3 class="footer-nav__title">その他</h3>
+        <ul class="footer-nav__list">
+          <li><a href="news.html" class="footer-nav__link">お知らせ</a></li>
+          <li><a href="blog.html" class="footer-nav__link">ブログ</a></li>
+          <li><a href="contact.html" class="footer-nav__link">お問い合わせ</a></li>
+          <li><a href="privacy.html" class="footer-nav__link">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom__text">&copy; 2024 Wake Wonder Inc. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <button class="page-top" id="pageTop" aria-label="ページトップへ戻る">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+</body>
+</html>

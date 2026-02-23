@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ブログ | 株式会社Wake Wonder</title>
+  <meta name="description" content="株式会社Wake Wonderのブログ。アプリ開発に関する有益な情報を発信しています。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Sora:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="ブログ | 株式会社Wake Wonder">
+  <meta property="og:description" content="アプリ開発に関する有益な情報を発信しています。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div class="loading" id="loading"><div class="loading-spinner"></div></div>
+  <a href="#main-content" class="skip-link">メインコンテンツへスキップ</a>
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo"><img src="images/logo.png" alt="Wake Wonder" width="120" height="32"></a>
+      <nav class="header-nav" aria-label="メインナビゲーション">
+        <ul class="header-nav__list">
+          <li><a href="about.html" class="header-nav__link">企業情報</a></li>
+          <li><a href="service.html" class="header-nav__link">サービス</a></li>
+          <li><a href="news.html" class="header-nav__link">お知らせ</a></li>
+          <li><a href="blog.html" class="header-nav__link active">ブログ</a></li>
+        </ul>
+        <a href="contact.html" class="header-nav__contact">お問い合わせ</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav" role="navigation" aria-label="モバイルナビゲーション">
+    <ul class="mobile-nav__list">
+      <li><a href="index.html" class="mobile-nav__link">ホーム</a></li>
+      <li><a href="about.html" class="mobile-nav__link">企業情報</a></li>
+      <li><a href="service.html" class="mobile-nav__link">サービス</a></li>
+      <li><a href="news.html" class="mobile-nav__link">お知らせ</a></li>
+      <li><a href="blog.html" class="mobile-nav__link">ブログ</a></li>
+    </ul>
+    <a href="contact.html" class="mobile-nav__contact">お問い合わせ</a>
+  </nav>
+
+  <main id="main-content">
+    <section class="page-header">
+      <span class="page-header__label">Blog</span>
+      <h1 class="page-header__title">ブログ</h1>
+    </section>
+    <nav class="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb__list">
+          <li><a href="index.html">ホーム</a></li>
+          <li>ブログ</li>
+        </ol>
+      </div>
+    </nav>
+
+    <section class="section blog-list-page">
+      <div class="container">
+        <div class="blog-grid fade-in">
+          <a href="#" class="blog-card">
+            <div class="blog-card__thumb"><div class="blog-card__thumb-placeholder"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div></div>
+            <div class="blog-card__body">
+              <time class="blog-card__date" datetime="2024-02-10">2024.02.10</time>
+              <h3 class="blog-card__title">2024年最新！ 今後のUIデザインの最新トレンド</h3>
+              <p class="blog-card__excerpt">今年のアプリ開発において重要になるUIデザインのトレンドを解説。テクスチャーベースのデザイン、ダークモード、直感的な操作性などを実例を交えて紹介します。</p>
+            </div>
+          </a>
+          <a href="#" class="blog-card">
+            <div class="blog-card__thumb"><div class="blog-card__thumb-placeholder"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z"/></svg></div></div>
+            <div class="blog-card__body">
+              <time class="blog-card__date" datetime="2024-01-25">2024.01.25</time>
+              <h3 class="blog-card__title">アプリ開発における品質向上の秘訣とは？</h3>
+              <p class="blog-card__excerpt">アプリケーション開発プロセスにおける品質管理の重要性を解説。コードレビュー、テストの自動化など、高品質なアプリを開発するためのヒントを伝えます。</p>
+            </div>
+          </a>
+          <a href="#" class="blog-card">
+            <div class="blog-card__thumb"><div class="blog-card__thumb-placeholder"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg></div></div>
+            <div class="blog-card__body">
+              <time class="blog-card__date" datetime="2024-01-15">2024.01.15</time>
+              <h3 class="blog-card__title">【保存版】モバイルアプリに潜むセキュリティ対策</h3>
+              <p class="blog-card__excerpt">アプリケーションのセキュリティリスクと対策について解説。データ暗号化、安全な認証方法、脆弱性テストなど、重要なチェックポイントを紹介します。</p>
+            </div>
+          </a>
+          <a href="#" class="blog-card">
+            <div class="blog-card__thumb"><div class="blog-card__thumb-placeholder"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg></div></div>
+            <div class="blog-card__body">
+              <time class="blog-card__date" datetime="2024-01-05">2024.01.05</time>
+              <h3 class="blog-card__title">成功事例から学ぶアプリマネタイズの法則</h3>
+              <p class="blog-card__excerpt">成功したアプリケーションのマネタイズ事例を紹介。広告、サブスクリプション、フリーミアムモデルなど、収益化の有効な戦略を紹介します。</p>
+            </div>
+          </a>
+          <a href="#" class="blog-card">
+            <div class="blog-card__thumb"><div class="blog-card__thumb-placeholder"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div></div>
+            <div class="blog-card__body">
+              <time class="blog-card__date" datetime="2023-12-20">2023.12.20</time>
+              <h3 class="blog-card__title">アプリのコンバージョンを押し上げる視覚テクニックとは？</h3>
+              <p class="blog-card__excerpt">UIデザインの心理学、ブランドカラーの効果的な活用、コントラストの最適化など、視覚的なテクニックを紹介します。</p>
+            </div>
+          </a>
+          <a href="#" class="blog-card">
+            <div class="blog-card__thumb"><div class="blog-card__thumb-placeholder"><svg viewBox="0 0 24 24"><path d="M21 21H4.6c-.56 0-.84 0-1.05-.11a1 1 0 0 1-.44-.44C3 20.24 3 19.96 3 19.4V3"/><path d="m7 14 4-4 4 4 6-6"/></svg></div></div>
+            <div class="blog-card__body">
+              <time class="blog-card__date" datetime="2023-12-10">2023.12.10</time>
+              <h3 class="blog-card__title">ユーザー獲得コストを抑える効果的なASOを考える</h3>
+              <p class="blog-card__excerpt">キーワード選定法、アイコンデザインの重要性、スクリーンショットの戦略的な活用など、ASO対策のテクニックを実践的に紹介します。</p>
+            </div>
+          </a>
+          <a href="#" class="blog-card">
+            <div class="blog-card__thumb"><div class="blog-card__thumb-placeholder"><svg viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z"/></svg></div></div>
+            <div class="blog-card__body">
+              <time class="blog-card__date" datetime="2023-11-30">2023.11.30</time>
+              <h3 class="blog-card__title">自社開発「OHA!」から学ぶアプリのパフォーマンス調整</h3>
+              <p class="blog-card__excerpt">表示の高速化、キャッシュの活用、画像最適化、データベースのクエリ改善など、アプリパフォーマンス向上のテクニックを紹介します。</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container fade-in">
+        <h2 class="cta__title">アプリ開発のご相談はお気軽に</h2>
+        <p class="cta__text">企画段階のご相談から、既存アプリの改善まで。<br>まずはお気軽にお問い合わせください。</p>
+        <a href="contact.html" class="btn btn-arrow">お問い合わせはこちら</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" aria-label="フッターナビゲーション">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-brand__logo"><img src="images/logo.png" alt="Wake Wonder" width="120" height="32"></div>
+        <p class="footer-brand__address">〒101-1234<br>東京都千代田区神田駿河台2-3-11<br>New Wonder Bldg 7F<br><br>TEL: 03-1234-5678<br>Email: info@makewonder-dev.com</p>
+      </div>
+      <div class="footer-nav">
+        <h3 class="footer-nav__title">企業情報</h3>
+        <ul class="footer-nav__list">
+          <li><a href="about.html" class="footer-nav__link">会社概要</a></li>
+          <li><a href="about.html#mission" class="footer-nav__link">ミッション</a></li>
+          <li><a href="about.html#message" class="footer-nav__link">代表メッセージ</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h3 class="footer-nav__title">サービス</h3>
+        <ul class="footer-nav__list">
+          <li><a href="service.html" class="footer-nav__link">アプリ開発</a></li>
+          <li><a href="service.html" class="footer-nav__link">コンサルティング</a></li>
+          <li><a href="service.html" class="footer-nav__link">運用・保守</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h3 class="footer-nav__title">その他</h3>
+        <ul class="footer-nav__list">
+          <li><a href="news.html" class="footer-nav__link">お知らせ</a></li>
+          <li><a href="blog.html" class="footer-nav__link">ブログ</a></li>
+          <li><a href="contact.html" class="footer-nav__link">お問い合わせ</a></li>
+          <li><a href="privacy.html" class="footer-nav__link">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom__text">&copy; 2024 Wake Wonder Inc. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <button class="page-top" id="pageTop" aria-label="ページトップへ戻る">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+  <script src="js/main.js"></script>
+</body>
+</html>
