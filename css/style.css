@@ -1686,15 +1686,7 @@ button {
   }
 
   .service-detail__image {
-    min-height: 120px;
-    padding: 24px;
-    flex: none;
-    width: 100%;
-  }
-
-  .service-detail__image svg {
-    width: 56px;
-    height: 56px;
+    display: none;
   }
 
   /* Product */
